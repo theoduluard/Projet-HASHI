@@ -17,8 +17,9 @@ JacoBhashi is a desktop application for the popular logic puzzle game Hashiwokak
 ## Table of Contents
 - [About The Game](#about-the-game)
 - [Features](#features)
-- [Get Started](#installation)
-- [Membres du Projet](#membres-du-projet)
+- [Get Started](#getting-started)
+- [How to Play](#how-to-play)
+- [Project Members](#project-members)
 
 ## About The Game
 
