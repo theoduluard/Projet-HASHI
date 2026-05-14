@@ -1,4 +1,3 @@
-<!-- Titre du Projet -->
 # Projet JacoBhashi
 
 <div align="center">
