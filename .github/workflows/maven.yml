@@ -8,7 +8,7 @@ on:
       - main
 
 permissions:
-  contents: write # Nécessaire pour publier sur gh-pages ET créer la release
+  contents: write
 
 jobs:
   publish-and-release:
@@ -24,11 +24,10 @@ jobs:
         uses: actions/setup-java@v4
         with:
           java-version: '21'
-          distribution: 'temurin' # Option requise pour les nouvelles versions de setup-java
+          distribution: 'temurin'
 
       - name: Build Project (JAR)
         run: mvn clean package -DskipTests
-        # Cette commande compile le projet et crée le fichier .jar dans le dossier "target/"
 
       - name: Generate Javadoc
         run: |
